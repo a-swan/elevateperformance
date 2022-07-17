@@ -1,0 +1,482 @@
+/**
+IE STYLE
+**/
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {  
+    body {
+        background-color: #000000 !important;
+        color: #ffffff !important;
+    }
+
+    .prof-img{
+        visibility: hidden !important;
+        height: 0;
+    }
+
+    .coach-row .card{
+        background-color: #151515;
+    }
+
+    a {
+        color: #ffffff !important;
+    }
+}
+
+:root{
+    --primary_dark: #090d0b;
+    --secondary_dark: #151515;
+    --primary_light: #FFFFFF;
+    --secondary_light: #9da099;
+    --primary_brand: #00843f;
+    --secondary_brand: #0b3627;
+}
+
+.title, .motto{
+    /* font-family: 'Noto Sans', sans-serif; */
+    font-weight: bold;
+}
+
+body, .container-body{
+    /* font-family: 'Noto Sans' , sans-serif; */
+    font-size: 1.2rem;
+    max-width: 1920px;
+    margin: auto;
+}
+
+.full-header, .profile-row, .coach-row, .merch-row{
+    margin-bottom: 96px;
+}
+
+h2.title {
+    font-size: 3rem;
+}
+
+.insta-title a:hover{
+    text-decoration: none;
+}
+
+.container-body{
+    background-color:var(--primary_dark);
+    color: var(--primary_light);
+}
+
+.full-header{
+    background-image: url("../assets/header-lg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+div.container-fluid.header{
+    background-color: rgba(21,21,21, 0.85);
+}
+
+a.navbar-brand{
+    margin-right: 0;
+}
+
+.img-brand{
+    width: 100%;
+}
+
+.navbar-dark .navbar-nav a.nav-link{
+    color: var(--secondary_light);
+}
+
+.navbar-dark .navbar-nav a.nav-link:hover{
+    color: var(--primary_light);
+}
+
+.navbar-dark .navbar-nav a.nav-link:active{
+    color: var(--primary_brand);
+}
+
+div.intro-row{
+    background-color: rgba(21,21,21, 0.85);
+}
+
+.motto-row{
+    border-bottom: 3px solid var(--primary_brand);
+    padding-bottom: 30px;
+}
+
+.motto{
+    color: var(--primary_light);
+    text-align: center;
+    font-size: 3rem;
+}
+
+.motto-highlight{
+    color: var(--primary_brand);
+}
+
+.subheader{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    color: var(--primary_light);
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+.social{
+    color: var(--secondary_light);
+}
+
+div.container.content .row{
+    margin-bottom: 15px;
+    background-color: var(--secondary_light);
+}
+
+.profile-card{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.profile-img{
+    overflow: hidden;
+}
+
+.prof-img{
+    width: 100%;
+}
+
+.profile-bio h3{
+    font-size: 1rem;
+    color: var(--primary_brand); 
+}
+
+.profile-bio .specialities{
+    color: var(--primary_brand);
+}
+
+.title{
+    color: var(--primary_light);
+}
+
+div.card{
+    padding: 0;
+}
+
+.coach-header{
+    background-image: url("../assets/fullsize/team.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    height: 45vh;
+    margin-bottom: 32px;
+}
+
+.coach-title-background, .merch-title-background{
+    height: 100%;
+    display: flex;
+    background-color: rgba(21,21,21, 0.55);
+    width: 100%;
+}
+
+.coach-title, .merch-title{
+    margin: auto;
+}
+
+.coach-row .card{
+    background-color: var(--secondary_dark);
+    border-color: var(--primary_dark);
+    border-radius: 0;
+    margin-top: 5px;
+}
+
+.coach-row .card .card-header{
+    text-align: center;
+    background-color: var(--secondary_brand);
+    border-radius: 0;
+}
+
+.coach-row .card .card-body{
+    background-color: var(--primary_light);
+    background-color: var(--secondary_dark);
+    color: var(--secondary_dark);
+    color: var(--primary_light);
+}
+
+.coach-row .card .card-body .card-footer{
+    background-color: rgba(0,0,0,.0);
+    border-top: 1px solid rgba(0,0,0,.85);
+}
+
+.merch-header a{
+    width: 100%;
+    text-decoration: none;
+}
+
+.merch-header a:hover, .merch-header a:hover .title{
+    text-decoration:none;
+    color: var(--primary_brand)
+}
+
+.merch-header{
+    background-image: url("../assets/jake-coach1-mb.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    height: 85vh;
+    margin-bottom: 32px;
+}
+
+h3.card-title.title, h4.card-title.title, h5.card-title.title{
+    margin: 0;
+    color: var(--primary_light);
+}
+
+.premium-card .card-header .title{
+    font-size: 28px;
+}
+
+p.card-text{
+    text-align: left;
+}
+
+.card-body ul{
+    padding: 0;
+    padding-left: 16px;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.title-price{
+    color: var(--primary_brand);
+}
+
+.coach-price{
+    font-size: 40px;
+}
+
+/* .card-body .btn, .card-body .nut-btn{ */
+.btn, .nut-btn{
+    border-width: 2px;
+    font-weight: bold;
+    text-align: center;
+
+    border-color: var(--primary_brand) !important;
+    color: var(--primary_brand) !important;
+
+    /* position: absolute;
+    bottom: 8px;
+    left: 50%;
+    margin-left: -56.55px; */
+}
+
+/* .card-body .btn:hover{ */
+.btn:hover{
+    background-color: var(--primary_brand);
+    color: var(--primary_light) !important;
+}
+
+/* .card-body .btn:active{ */
+.btn:active{
+    background-color: var(--secondary_dark);
+    color: var(--primary_light);
+}
+
+.table-container{
+    overflow: hidden;
+}
+
+table{
+    font-size: 1rem;
+    margin-top: 16px;
+}
+
+table.table-dark{
+    display: block;
+    background-color: var(--secondary_dark);
+    overflow-x: scroll;
+}
+
+.table-dark tbody tr th, .table-dark thead tr th{
+    border-color: var(--primary_dark)
+}
+
+.in-person{
+    margin-top: 48px;
+}
+
+.sitemap-container{
+    border-top-color: var(--secondary_dark);
+    border-top-width: 1px;
+    border-top-style: solid;
+    padding-top: 32px;
+
+    font-size: 0.85rem;
+}
+
+.sitemap p{
+    font-size: 0.85rem;
+}
+
+.sitemap{
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+    padding: 0;
+}
+
+.sitemap li a, .sitemap p{
+    color: var(--secondary_light);
+}
+
+.dev-credit{
+    color: var(--secondary_light);
+}
+
+.dev-credit:hover{
+    color:var(--secondary_light);
+    text-decoration: none;
+}
+
+/* Small Devices and up */
+@media (min-width: 576px){
+    .full-header{
+        background-image: url("../assets/header-mb.jpg");
+        background-position: top;
+    }
+
+    a.navbar-brand{
+        margin-left: -50px;
+    }
+
+    .img-brand{
+        width: 25vh;
+    }
+
+    div.intro-row{
+        height: 71vh;
+        text-align: left;
+    }
+
+    .motto, .subheader{
+        text-align: left;
+    }
+
+    .social{
+        text-align: center;
+    }
+
+    .motto{
+        font-size: 34px;
+    }
+
+    .subheader{
+        font-size: 16px;
+    }
+
+    #insta-icon, #fb-icon{
+        width: 24px;
+        height: 24px;
+    }
+
+    div.content.about{
+        color: var(--primary_light);
+        text-align: left;
+    }
+
+    img.prof-img{
+        width: 42%;
+        margin-right: 15px;
+    }
+
+    .coach-header{
+        background-image: url('../assets/fullsize/team.jpg')
+    }
+
+    .merch-header{
+        background-image: url('../assets/merch-action.jpg')
+    }
+
+    .sitemap{
+        text-align: left;
+    }
+
+    .side-card{
+        height: 149vh;
+    }
+
+    .coach-header{
+        height: 55vh;
+    }
+}
+
+/* Medium Devices and up */
+@media (min-width: 768px){
+    .subheader{
+        font-size: 18px;
+    }
+
+    img.prof-img{
+        width: 42%;
+        margin-right: 15px;
+    }
+
+    .side-card{
+        height: 112vh;
+    }
+
+    .coach-header{
+        background-position: 0 -97px;
+    }
+}
+
+/* Large Devices and up */
+@media (min-width: 992px){
+    .full-header{
+        background-image: url("../assets/header-lg.jpg");
+    }
+
+    div.intro-row{
+        height: 71vh;
+    }
+
+    .motto{
+        font-size: 50px;
+    }
+
+    img.prof-img{
+        width: 42%;
+        margin-right: 15px;
+    }
+
+    .side-card{
+        height: 105vh;
+    }
+
+    .coach-header{
+        background-position: 0 ;
+        background-image: url('../assets/fullsize/team.jpg')
+    }
+
+    .merch-header{
+        background-image: url('../assets/merch-action.jpg')
+    }
+}
+
+/* XL Devices and up */
+@media (min-width: 1200px){
+    .motto-row{
+        padding-top: 40px;
+        padding-bottom: 80px;
+    }
+
+    img.prof-img{
+        width: 42%;
+        margin-right: 15px;
+    }
+
+    .coach-header{
+        background-position: 0px -188px;
+        height: 55vh;
+    }
+}

@@ -1,0 +1,47 @@
+:root{
+    --primary_dark: #000000;
+    --secondary_dark: #151515;
+    --primary_light: #FFFFFF;
+    --primary_brand: #00843f;
+    --secondary_brand: #0b3627;
+}
+
+body{
+    height: 100vh;
+    background-image: url("./assets/header.jpg");
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    font-family: 'Rubik', sans-serif;
+}
+
+.body-container{
+    background-color: rgba(21,21,21,0.95);
+    color: var(--primary_light);
+    height: 100%;
+}
+
+.form-container{
+    text-align: center;
+}
+
+.brand{
+    width: 60vh;
+}
+
+#fb-icon{
+    margin-left: 32px;
+}
+
+@media (min-width: 992px){
+    body{
+        background-size: 100% auto;
+    }
+
+    #fb-icon, #insta-icon{
+        margin-left: 15px;
+        width: 24px;
+        height: 24px;
+    }
+}
